@@ -58,7 +58,7 @@ pd.set_option('display.width', 500)
 pd.set_option("display.float_format", lambda x: "%.3f" % x)
 
 # Veri Seti Okutma
-df = pd.read_csv("/Users/ahmetbozkurt/Desktop/Salary_Predicy_with_Machine_Learning/dataset/hitters.csv")
+df = pd.read_csv("hitters.csv")
 df.head()
 df.isnull().sum()
 df.shape
